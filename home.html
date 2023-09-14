@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+        <body>
+            <textarea
+                    name="texto"
+                    class="texto"
+                    id="texto"
+                    cols="30"
+                    rows="10"
+                    placeholder="ingresa el texto aqui">solo ingresa minusculas
+                    </textarea>
+            <textarea
+                    name="encriptado"
+                    class="encriptado"
+                    id="ecriptado"
+                    cols="30"
+                    rows="10"
+                    placeholder="ingresa el texto aqui">
+                    </textarea>
+        </body>
+
+        <footer>
+        <div class="botones">
+            <button 
+                class="btn-encriptar"
+                type="button"
+                value="encriptar"
+                onclick="encriptar()">encriptar
+            </button>
+            <button  
+                class="btn-desencriptar"
+                type="button"
+                value="Desencriptar"
+                onclick="desencriptar()">desencriptar
+            </button>
+            <button 
+                class="btn-copiar" 
+                type="button"
+                value="copiar"
+                onclick="copiar()">copiar
+            </button>
+          
+        </footer>    
+
+</html>
